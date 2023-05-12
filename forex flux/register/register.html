@@ -1,51 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Register</title>
-	<link rel="stylesheet" type="text/css" href="register.css">
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="/forex flux/register/register.css">
 </head>
 <body>
+    <header>
+        <div class="logo">
+            <object type="image/svg+xml" data="/forex flux/logo/final.svg">
+                <!-- Fallback image for non-SVG supporting browsers -->
+                <img src="final.jpg" alt="Example Website Logo">
+            </object>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/forex flux/index.html">Home</a></li>
+                <li><a href="/forex flux/signals/signal.html">Signals</a></li>
+                <li><a href="/forex flux/register/register.html">Register</a></li>
+                <li><a href="/forex flux/login/login.html">Login</a></li>
+                <li><a href="/forex flux/contact_us/contact.html">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <div class="container">
+        <form action="/forex flux/register/process-signup.php" method="post" novalidate>
+            <h1>Sign Up</h1>
+            <label for="email"><b>Email</b></label>
+            <input type="text" id="email" placeholder="Enter Email" name="email" required>
 
-	<header>
-		<div class="logo">
-			<object type="image/svg+xml" data="/logo/final.svg">
-				<!-- Fallback image for non-SVG supporting browsers -->
-				<img src="final.jpg" alt="Example Website Logo">
-			</object>
-		</div>
+            <label for="password"><b>Password</b></label>
+            <input type="password" id="password" placeholder="Enter Password" name="password" required>
 
-		<nav>
-			<ul>
-				<li><a href="/index.html">Home</a></li>
-				<li><a href="/signals/signal.html">Signals</a></li>
-				<li><a href="/register/register.html">Register</a></li>
-				<li><a href="/login/login.html">Login</a></li>
-				<li><a href="#">Contact us</a></li>
-			</ul>
-		</nav>
-	</header>
+            <button type="submit">Register</button>
+        </form>
+    </div>
 
-
-	<div class="container">
-		<form>
-			<h1>Sign Up</h1>
-			<label for="email"><b>Email</b></label>
-			<input type="text" placeholder="Enter Email" name="email" required>
-
-			<label for="password"><b>Password</b></label>
-			<input type="password" placeholder="Enter Password" name="password" required>
-
-			<button type="submit">Register</button>
-		</form>
-	</div>
-
-
-	<footer>
-		<div class="ending">
-		<p> Forex Flux </br>Copyright &copy; 2023</p>
-	  </div>
-	</footer>
-		  
+    <footer>
+        <div class="ending">
+            <p>Forex Flux <br> Copyright &copy; 2023</p>
+        </div>
+    </footer>
 </body>
 </html>
