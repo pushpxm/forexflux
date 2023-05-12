@@ -67,7 +67,7 @@ nav a:focus {
 
 
 body {
-	background-image: url("/images/prototype1.png");
+	background-image: url("/forex\ flux//images/prototype1.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
@@ -137,7 +137,7 @@ body {
   }
 
   .features-container {
-	background-image: url("/images/container.jpg");
+	background-image: url("/forex\ flux//images/container.jpg");
 	background-size: cover;
 	padding: 2rem;
 	position: relative;
@@ -227,7 +227,7 @@ body {
   }
 
   footer{
-	background-image: url("/images/container.jpg");
+	background-image: url("/forex\ flux/images/container.jpg");
 	background-color: #020b16;
 	transform: rotate(180deg);
 	padding: 10px;
